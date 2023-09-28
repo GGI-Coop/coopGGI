@@ -41,7 +41,6 @@ function Blogs_Details() {
   if (post.video !== "") {
   return (
     <div>
-      <Header/>
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
@@ -136,7 +135,6 @@ function Blogs_Details() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 } else {
