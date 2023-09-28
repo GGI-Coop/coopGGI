@@ -63,7 +63,7 @@ function Blogs_Details() {
               <hr className="blog_hr" />
               <div>
               <center>
-              <iframe src={post.video} width="800" height="480" allow="autoplay"></iframe>
+              <iframe src={post.video} className="blog_videos"  allow="autoplay"></iframe>
                   </center>
                 
               </div>

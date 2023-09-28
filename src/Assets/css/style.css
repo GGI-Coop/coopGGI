@@ -3006,6 +3006,10 @@ ul.who_we_are_ul_2 li::before {
   margin-bottom:20px;
   width: -webkit-fill-available;
 }
+.blog_videos {
+  width: fit-content;
+  height: 480;
+}
 .blog_detail_para {
   font-family: "Montserrat";
   font-size: 14px;
