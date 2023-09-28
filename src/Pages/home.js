@@ -6,7 +6,6 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
-import Video from '../Utilities/video.mp4';
 import ScrollCarousel from 'scroll-carousel-react';
 
 function Home(){
