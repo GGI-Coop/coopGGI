@@ -7,6 +7,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 import ScrollCarousel from 'scroll-carousel-react';
+import ReactPlayer from "react-player";
+import video from "../Utilities/website.mp4";
 
 function Home(){
   const responsive = {
@@ -46,22 +48,23 @@ function Home(){
       items: 1
     }
   };
-
+  
   return(
     <div>
       <Header />
         <div className="video_section animation">
           <div className="container-fluid">
             <div className="video_box">
-              <VideoPlayer
+      <VideoPlayer
                 className="video"
                 autoPlay={true}
                 loop={true}
                 controls={false}
+                mute
                 src={
-                  "https://drive.google.com/file/d/1-Qyn9D2X0GHedgSNcx81tPl5SEXjPZ2D/view?usp=sharing"
+                  video
                 }
-              />
+              />   
             </div>
             <div className="video_counter_box" autoPlay>
               <div className="row">
@@ -163,7 +166,7 @@ function Home(){
               <div className="col-md-6">
                 <div className="embark_scroll_container">
                   <div className="embark_scroll_content">
-                    Embark on your journey to Canada with confidence by choosing GGI as your trusted immigration consultants. With our team of experienced Registered Canadian Immigration Consultants (RCICs) leading the way, we provide unparalleled expertise and personalized guidance to navigate the complex immigration process. Whether you’re a skilled professional, Embark on your journey to Canada with confidence by choosing GGI as your trusted immigration consultants. With our team of experienced Registered Canadian Immigration Consultants (RCICs) leading the way, we provide unparalleled expertise and personalized guidance to navigate the complex immigration process. Whether you’re a skilled professional, Embark on your journey to Canada with confidence by choosing GGI as your trusted immigration consultants. With our team of experienced Registered Canadian Immigration Consultants (RCICs) leading the way, we provide unparalleled expertise and personalized guidance to navigate the complex immigration process. Whether you’re a skilled professional, Embark on your journey to Canada with confidence by choosing GGI as your trusted immigration consultants. With our team of experienced Registered Canadian Immigration Consultants (RCICs) leading the way, we provide unparalleled expertise and personalized guidance to navigate the complex immigration process. Whether you’re a skilled professional,
+                  Embark on your journey to Canada with unwavering confidence, guided by GGI's accomplished team of Registered Canadian Immigration Consultants (RCICs). Our seasoned professionals are dedicated to providing personalized support and unmatched expertise, ensuring you navigate the intricate immigration process with ease. Whether you're a skilled professional seeking career opportunities, a student pursuing quality education, or reuniting with loved ones, GGI stands as your resolute partner for a seamless transition to Canada. Trust in our experience and commitment to transform your Canadian dream into a reality, as we guide you through every step of your transformative journey.
                   </div>
                 </div>
                 <div className="embark_btn_box">

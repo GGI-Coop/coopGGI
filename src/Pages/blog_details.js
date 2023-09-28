@@ -41,7 +41,7 @@ function Blogs_Details() {
   if (post.video !== "") {
   return (
     <div>
-      <Header />
+      <Header/>
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
@@ -63,9 +63,8 @@ function Blogs_Details() {
               <hr className="blog_hr" />
               <div>
               <center>
-              <iframe src={post.video} className="blog_videos"  allow="autoplay"></iframe>
-                  </center>
-                
+              <iframe src={post.video} className="blog_videos" allow="autoplay"></iframe>
+              </center>
               </div>
               <FacebookShareButton 
                         url={"https://vercelggi.vercel.app/blog_details"}
@@ -214,6 +213,11 @@ function Blogs_Details() {
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
                       <br></br>
+                      <br></br>
+                      <div>
+                        <center>
+                        <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
+                      </center></div>
             </div>
             <div className="col-md-4">
               <div className="blog_detail_side_box">

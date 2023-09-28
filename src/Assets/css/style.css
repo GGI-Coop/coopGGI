@@ -1242,7 +1242,8 @@
   opacity: 0.5;
 }
 .video{
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
 .video_sec_counter_box{
  display: flex;
