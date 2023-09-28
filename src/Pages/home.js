@@ -7,7 +7,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 import ScrollCarousel from 'scroll-carousel-react';
-import ReactPlayer from "react-player";
 import video from "../Utilities/website.mp4";
 
 function Home(){
