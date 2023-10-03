@@ -90,7 +90,7 @@ function Footer(){
       </div>
       <div className="container-fluid mt-4">
         <div className="copyright">
-          &copy; Copyright <strong><span>Growing Globe Immigration</span></strong>. All Rights Reserved | Designed by <a href="https://rajarshisolutions.com/">Rajarshi Solutions</a>
+          &copy; Copyright <strong><span>Growing Globe Immigration</span></strong>. All Rights Reserved 
         </div>
       </div>
 
